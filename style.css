@@ -1,0 +1,91 @@
+
+
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height: 100vh;
+    color: hsl(240, 5%, 7%);
+    }
+    p {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    padding-right: 3%;
+    }
+    
+    p span {
+    transition: 0.5s ease-out;
+    }
+    p:hover span:nth-child(1) {
+    margin-right: 5px;
+    }
+    p:hover span:nth-child(2) {
+    margin-left: 30px;
+    }
+    p:hover span {
+    color: #6a6464b8;
+    text-shadow: 0 0 10px #ffffffea, 0 0 20px #ffffffe6, 0 0 40px #ffffffe5;
+    }
+
+#sec{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+#more{
+    padding-top: 10%;
+    padding-left: 5%; 
+    font-size: 400%;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color: rgb(138, 94, 74);
+    }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram{
+    background: rgb(209, 82, 124);
+    color: white;
+}
+
+#au{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height: 100vh;
+    color: hsl(240, 5%, 7%);
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height: 100vh;
+    color: hsl(240, 5%, 7%);
+}
+
+p1{
+  font-family: 'Times New Roman', Times, serif;
+}
